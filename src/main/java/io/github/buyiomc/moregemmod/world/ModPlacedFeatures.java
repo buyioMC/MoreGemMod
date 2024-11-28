@@ -25,10 +25,10 @@ public class ModPlacedFeatures {
 
         register(featureRegisterable, RED_GEM_ORE_PLACED_KEY, registryEntryLookup.getOrThrow(ModConfiguredFeatures.RED_GEM_ORE_KEY),
                 ModOrePlacements.modifiersWithCount(12,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-64), YOffset.fixed(20))));
         register(featureRegisterable, BLACK_GEM_ORE_PLACED_KEY, registryEntryLookup.getOrThrow(ModConfiguredFeatures.BLACK_GEM_ORE_KEY),
                 ModOrePlacements.modifiersWithCount(12,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-64), YOffset.fixed(40))));
     }
 
     public static void register(
