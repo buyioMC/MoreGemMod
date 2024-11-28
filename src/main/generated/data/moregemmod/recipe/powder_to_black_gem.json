@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    },
+    {
+      "item": "moregemmod:black_gem_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moregemmod:black_gem"
+  }
+}

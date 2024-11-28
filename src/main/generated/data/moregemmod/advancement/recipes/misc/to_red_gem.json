@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "moregemmod:to_red_gem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "red_gem_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moregemmod:red_gem_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "red_gem_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "moregemmod:to_red_gem"
+    ]
+  }
+}

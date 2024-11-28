@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "moregemmod:to_red_gem_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "red_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moregemmod:red_gem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "red_gem",
+      "stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "moregemmod:to_red_gem_pickaxe"
+    ]
+  }
+}

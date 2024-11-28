@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "moregemmod:black_gem"
+    },
+    "@": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "#@"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moregemmod:red_gem_sugar"
+  }
+}

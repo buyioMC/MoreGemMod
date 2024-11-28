@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.buyiomc.moregemmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"AbstractFurnaceBlockEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

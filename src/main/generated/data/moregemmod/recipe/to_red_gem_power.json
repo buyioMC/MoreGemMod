@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moregemmod:red_gem"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "moregemmod:red_gem_powder"
+  }
+}

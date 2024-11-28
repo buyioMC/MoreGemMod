@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "moregemmod:block/deepslate_black_gem_ore"
+  }
+}

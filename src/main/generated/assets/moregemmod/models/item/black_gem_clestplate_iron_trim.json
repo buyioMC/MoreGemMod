@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moregemmod:item/black_gem_clestplate",
+    "layer1": "minecraft:trims/items/chestplate_trim_iron"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moregemmod:black_gem_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "moregemmod:black_gem"
+  }
+}
